@@ -1,5 +1,7 @@
-#drum-machine { 
-  width: 332px;
+#calc { 
+  /*width: 432px; */
+  width: 40%;
+  height: 30%;
   border: 1px solid green;
   padding: 5px; 
 }
@@ -9,13 +11,15 @@ h1, h6 {
 }
 #row1 {
   margin: auto;
+ 
 }
 
 .b {
-  width: 80px;
+  /*width: 80px;*/
+  width: 25%;
 }
 .b1 {
-  width: 320px;
+  width: 100%;
 }
 .wb {
   background-color: green;
@@ -28,6 +32,8 @@ h1, h6 {
 }
 
 #display, #display1 {
+  background-color: black;
+  color: white;
   text-align: right;
   font-weight: bold;
   word-break: break-all;

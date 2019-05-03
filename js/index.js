@@ -145,5 +145,14 @@ function bclick(e) {
 }
 
 function roundToFour(num) {
-      return Math.round(num * 10000) / 10000;
+      if(num > 1 || num < -1)
+      {
+        var n =  Math.round(num * 10000) / 10000;
+        if(n.toString().indexOf('e')!= -1)
+        {
+            return n.toPrecision(4);
+        }
+        return n;
+      }
+      return num;
 }
